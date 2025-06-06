@@ -1,0 +1,17 @@
+background-color:powderblue; # tomato  ,darkolivegreen
+font-family:verdana; #courier
+font-size:300%;
+text-align:center  #left;
+
+
+border: 2px solid powderblue;
+border-collapse: collapse;
+border-style: dotted;
+border-color: #96D4D4;
+
+font-size:60px;" #160%
+font-family:courier;"#verdana
+font-weight:bold;
+max-width:100%;height:auto;
+ display: grid;
+  grid-template-columns: 33% 33% 33%;
