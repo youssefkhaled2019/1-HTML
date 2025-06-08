@@ -42,12 +42,12 @@
     <h5>This is heading 5</h5>
     <h6>This is heading 6</h6>
     <!-- -----------------------------------[a]-------------------------------- -->
- 
-     <br />
+
+    <br />
     <span class="center"><p>7-[a]</p></span>
 
     <hr />
- 
+
     <a href="" target="_blank" title="Go to W3Schools HTML section"
       >This is a link</a
     >
@@ -66,9 +66,7 @@
     <a href="#C4">Jump to Chapter 4</a>
     <a href="html_demo.html#C4">Jump to Chapter 4</a>
 
-
-
-      <a
+    <a
       href="https://api.whatsapp.com/send/?phone=%2B201002436699&text&type=phone_number&app_absent=0"
       method="get"
       target="_blank"
@@ -88,19 +86,17 @@ The target attribute can have one of the following values:
     _top - Opens the document in the full body of the window
  -->
     <!-- -----------------------------------[Button]-------------------------------- -->
-     <br />
+    <br />
     <span class="center"><p>8-[Button ]</p></span>
     <hr />
-    
+
     <button onclick="document.location='default.asp'">HTML Tutorial</button>
     <!-- -----------------------------------[img]-------------------------------- -->
-      <br />
+    <br />
     <span class="center"><p>9-[img]</p></span>
     <hr />
 
     <img src="" alt="" width="104" height="142" />
-
-
 
     <a href="default.asp">
       <img
@@ -142,7 +138,22 @@ The target attribute can have one of the following values:
       A paragraph with a floating image. A paragraph with a floating image. A
       paragraph with a floating image.
     </p>
+    <!-- -----------------------------------[picture-img]-------------------------------- -->
+    <br />
+    <span class="center"><p>9.1-[picture-img]</p></span>
+    <hr />
 
+    <picture>
+      <source media="(min-width: 650px)" srcset="img_food.jpg" />
+      <source media="(min-width: 465px)" srcset="img_car.jpg" />
+      <img src="img_girl.jpg" style="width: auto" />
+    </picture>
+    <picture>
+      <source srcset="img_smallflower.jpg" media="(max-width: 600px)" />
+      <source srcset="img_flowers.jpg" media="(max-width: 1500px)" />
+      <source srcset="flowers.jpg" />
+      <img src="img_flowers.jpg" alt="Flowers" style="width: auto" />
+    </picture>
     <!-- -----------------------------------[p]-------------------------------- -->
     <br />
     <span class="center"><p>2-[p]</p></span>
@@ -160,11 +171,74 @@ The target attribute can have one of the following values:
     <!-- -----------------------------------[]-------------------------------- -->
     <hr />
     <br />
-    <!-- -----------------------------------[]-------------------------------- -->
-    <!-- 
-  
+    <!-- -----------------------------------[Lists]-------------------------------- -->
+    <br />
+    <span class="center"><p>11-Lists</p></span>
+    <hr />
 
- -->
+    <!-- style="list-style-type:disc;" disc (default),circle,square, none-->
+    <ul style="list-style-type: disc">
+      <!-- ul = Unordered List  , li= List item -->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <br />
+    <br />
+
+    <ul>
+      <li>Coffee</li>
+      <li>
+        Tea
+        <ul>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+    </ul>
+    <br />
+    <br />
+    <!--  type="1" ,"A","a","I","i",
+      start="50"
+      reversed 
+,-->
+    <ol type="1">
+      <!-- ol =Ordered List  -->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <br />
+    <br />
+
+    <ol>
+      <li>Coffee</li>
+      <li>
+        Tea
+        <ol>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ol>
+      </li>
+      <li>Milk</li>
+    </ol>
+
+    <br />
+    <br />
+    <!-- dl= tag defines the description list,
+     dt=tag defines the term (name),
+     dd=tag describes each term: 
+     -->
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+
     <!-- -----------------------------------[]-------------------------------- -->
     <br />
     <span class="center"><p>4-[Formatting]</p></span>
@@ -184,7 +258,50 @@ The target attribute can have one of the following values:
     <p>This is <sub>subscripted</sub> text.</p>
     <p>This is <sup>superscripted</sup> text.</p>
     <!-- -----------------------------------[]-------------------------------- -->
+    <br />
+    <span class="center"><p>6-[Quotation and Citation Elements]</p></span>
+    <hr />
+    <!-- <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> 
+      
+      <abbr> 	Defines an abbreviation or acronym
+      <address> 	Defines contact information for the author/owner of a document
+      <bdo> 	Defines the text direction
+      <blockquote> 	Defines a section that is quoted from another source
+      <cite> 	Defines the title of a work
+      <q> 	Defines a short inline quotation
+      
+      -->
+    <p>
+      WWF's goal is to:
+      <q>Build a future where people live in harmony with nature.</q>
+    </p>
 
+    <p>
+      The <abbr title="World Health Organization">WHO</abbr> was founded in
+      1948.
+    </p>
+
+    <address>
+      Written by John Doe.<br />
+      Visit us at:<br />
+      Example.com<br />
+      Box 564, Disneyland<br />
+      USA
+    </address>
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <bdo dir="rtl">This line will be written from right to left</bdo>
+
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 60 years, WWF has worked to help people and nature thrive. As the
+      world's leading conservation organization, WWF works in nearly 100
+      countries. At every level, we collaborate with people around the world to
+      develop and deliver innovative solutions that protect communities,
+      wildlife, and the places in which they live.
+    </blockquote>
+
+    <div>
+      https://www.youtube.com/<wbr />playlist?list=PLM_i0obccy3swdHfFh1FrLEVVFMp8<wbr />-5Jc&fbclid=IwAR2eP038MSFNJSmNCssdpaBm3KofEJUG9e<wbr />jR95GGGm9AKB0StOIPpLA6fgc
+    </div>
     <!-- -----------------------------------[]-------------------------------- -->
 
     <!-- -----------------------------------[]-------------------------------- -->

@@ -1,7 +1,6 @@
 HTML Tutorial
-    HTML Quotations
-    HTML Colors
     HTML Images
+        -https://www.w3schools.com/html/html_images_imagemap.asp
     HTML Tables
     HTML Lists
     HTML Block & Inline
