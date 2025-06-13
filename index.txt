@@ -1,83 +1,36 @@
-HTML Tutorial
-    HTML Images
-        -https://www.w3schools.com/html/html_images_imagemap.asp
-    HTML Tables
-    HTML Lists
-    HTML Block & Inline
-    HTML Div
-    HTML Classes
-    HTML Id
-    HTML Iframes
-    HTML JavaScript
-    HTML File Paths
-    HTML Head
-    HTML Layout
-    HTML Responsive
-    HTML Computercode
-    HTML Semantics
-    HTML Style Guide
-    HTML Entities
-    HTML Symbols
-    HTML Emojis
-    HTML Charsets
-    HTML URL Encode
-    HTML vs. XHTML
+-https://www.w3schools.com/html/html_images_imagemap.asp
+-https://www.w3schools.com/html/html_table_colgroup.asp
+-https://www.w3schools.com/html/html_xhtml.asp
+   
 
-HTML Forms
-    HTML Forms
-    HTML Form Attributes
-    HTML Form Elements
-    HTML Input Types
-    HTML Input Attributes
-    Input Form Attributes
 
-HTML Graphics
-    HTML Canvas
-    HTML SVG
 
-HTML Media
-    HTML Media
-    HTML Video
-    HTML Audio
-    HTML Plug-ins
-    HTML YouTube
 
-HTML APIs
-HTML Web APIs
-HTML Geolocation
-HTML Drag and Drop
-HTML Web Storage
-HTML Web Workers
-HTML SSE
+https://www.w3schools.com/html/html_blocks.asp
+https://www.w3schools.com/TAgs/tag_a.asp
+https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/tags/default.asp
+https://www.w3schools.com/tags/ref_attributes.asp
+https://www.w3schools.com/tags/ref_language_codes.asp
+#==================================================================
 
-HTML Examples
-HTML Examples
-HTML Editor
-HTML Quiz
-HTML Exercises
-HTML Website
-HTML Syllabus
-HTML Study Plan
-HTML Interview Prep
-HTML Bootcamp
-HTML Certificate
-HTML Summary
-HTML Accessibility
+https://elzero.org/category/courses/html-course/
+https://elzero.org/category/assignments/html-assignments/
+https://elzero.org/support/
+https://www.elzero.courses/
 
-HTML References
-    HTML Tag List
-    HTML Attributes
-    HTML Global Attributes
-    HTML Browser Support
-    HTML Events
-    HTML Colors
-    HTML Canvas
-    HTML Audio/Video
-    HTML Doctypes
-    HTML Character Sets
-    HTML URL Encode
-    HTML Lang Codes
-    HTTP Messages
-    HTTP Methods
-    PX to EM Converter
-    Keyboard Shortcuts
+https://www.w3schools.com/html/html_tables.asp
+https://www.w3schools.com/html/html_forms_attributes.asp
+
+
+
+
+Global attributes   https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
+Entities            https://www.freeformatter.com/html-entities.html
+Semantic            https://www.w3schools.com/html/html5_semantic_elements.asp
+
+
+convas
+
+https://wa.me/+201101019319
+

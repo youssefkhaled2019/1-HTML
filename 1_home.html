@@ -15,6 +15,9 @@
     <!-- <link rel="icon" type="image/x-icon" href="/src/favicon.ico"> -->
     <!-- www.favicon.cc -->
 
+    <!-- ----------------[base]----------------------------  -->
+    <!-- <base href="https://www.w3schools.com/" target="_blank" /> -->
+
     <style>
       span.center {
         text-align: center;
@@ -30,6 +33,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+        <!--  -----------------------------------[base] -----------------------------------  -->
+    <!-- 
+
+-The <base> element specifies the base URL and/or target for all relative URLs in a page.
+-The <base> tag must have either an href or a target attribute present, or both.
+-There can only be one single <base> element in a document!
+ 
+-->
+
+    <!-- 
+<head>
+<base href="https://www.w3schools.com/" target="_blank">
+</head>
+
+<body>
+<img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+<a href="tags/tag_base.asp">HTML base Tag</a>
+</body>
+
+-->
+
     <!-- -----------------------------------[h1]-------------------------------- -->
     <br />
     <span class="center"><p>1-[h]</p></span>
@@ -154,6 +178,19 @@ The target attribute can have one of the following values:
       <source srcset="flowers.jpg" />
       <img src="img_flowers.jpg" alt="Flowers" style="width: auto" />
     </picture>
+        <!-- -------------------[figure-img]-------------------------  -->
+    <br />
+    <span class="center"><p>10-[figure-img]</p></span>
+    <hr />
+    <figure>
+      <img src="" alt="" />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img src="pic_trulli.jpg" alt="Trulli" style="width: 100%" />
+      <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
     <!-- -----------------------------------[p]-------------------------------- -->
     <br />
     <span class="center"><p>2-[p]</p></span>
@@ -171,6 +208,9 @@ The target attribute can have one of the following values:
     <!-- -----------------------------------[]-------------------------------- -->
     <hr />
     <br />
+    <pre>
+
+    </pre>
     <!-- -----------------------------------[Lists]-------------------------------- -->
     <br />
     <span class="center"><p>11-Lists</p></span>
@@ -302,26 +342,116 @@ The target attribute can have one of the following values:
     <div>
       https://www.youtube.com/<wbr />playlist?list=PLM_i0obccy3swdHfFh1FrLEVVFMp8<wbr />-5Jc&fbclid=IwAR2eP038MSFNJSmNCssdpaBm3KofEJUG9e<wbr />jR95GGGm9AKB0StOIPpLA6fgc
     </div>
-    <!-- -----------------------------------[]-------------------------------- -->
 
-    <!-- -----------------------------------[]-------------------------------- -->
 
-    <!-- -----------------------------------[]-------------------------------- -->
 
-    <!-- -----------------------------------[]-------------------------------- -->
+    <!-- -----------------------------------[iframe ]-------------------------------- -->
+ <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"   style="height: 200px; width: 300px"></iframe> 
+
+<!-- ------------- -->
+ <iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+    <!-- -----------------------------------[]-------------------------------- -->
+
+<p id="demo"></p>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+   
+   <script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize = "25px"; 
+  document.getElementById("demo").style.color = "red";
+  document.getElementById("demo").style.backgroundColor = "yellow";        
+}
+</script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript> 
 
-    <!-- -----------------------------------[]-------------------------------- -->
+    <!-- ----------------------------------- [audio] -----------------------------------  -->
+    <br />
+    <span class="center"><p>13-[audio]</p></span>
+    <hr />
 
-    <!-- -----------------------------------[]-------------------------------- -->
+    <audio src=""></audio>
 
-    <!-- -----------------------------------[]-------------------------------- -->
+    <audio controls autoplay loop muted>
+      <source src="" type="audio/mpeg" />
+      <source src="media/one_way_ticket.mp3" type="audio/mpeg" />
+      <source src="media/one_way_ticket.ogg" type="audio/ogg" />
+      <source src="media/one_way_ticket.wav" type="audio/wav" />
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types -->
+      your browser does not spport audio
+    </audio>
 
-    <!-- -----------------------------------[]-------------------------------- -->
+    <!-- ----------------------------------- [video] -----------------------------------  -->
+    <br />
+    <span class="center"><p>14-[video]</p></span>
+    <hr />
+    <!-- subtitle -->
+    <!--      
+    <video src=""></video>
 
-    <!-- -----------------------------------[]-------------------------------- -->
+    <video controls autoplay loop muted preload poster="" width="" height="">
+      <source src="" type="video/mp4" />
+      your browser does not spport video
+      <track
+        src="subtitle_en.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="english"
+      />
+      <track
+        src="subtitle_ar.vtt"
+        kind="metadata"
+        srclang="ar"
+        label="arabic"
+      />
+      
+    </video> -->
+    <!--   kind=[subtitles,captions,descriptions,metadata,...]   -->
 
+    <!-- ------------------------------ -->
+    <div class="vidcontainer">
+      <!-- <select class='qualitypick' autocomplete='off'>
+        <option selected>fullHD</option>
+        <option>720p</option>
+        <option>360p</option>
+     </select> -->
+      <video controls preload>
+        <source label="fullHD" src="http://v.com/lorem.mp4" type="video/mp4" />
+        <source label="720p" src="http://v.com/ipsum.mp4" type="video/mp4" />
+        <source label="360p" src="http://v.com/dolor.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <!-- -----------------------------------[Computer Code Elements]-------------------------------- -->
+ <br />
+    <span class="center"><p>18-[Computer Code Elements]</p></span>
+    <hr />
+    
+    <code>
+  <pre>
+    x = 5;
+    y = 6;
+    z = x + y;
+  </pre>
+</code>
+<!-- The HTML <kbd> element is used to define keyboard input. The content inside is displayed in the browser's default monospace font. -->
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+<!-- The HTML <samp> element is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font. -->
+<p><samp>File not found.<br>Press F1 to continue</samp></p> 
+
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+<!-- 
+    The <kbd> element defines keyboard input
+    The <samp> element defines sample output from a computer program
+    The <code> element defines a piece of computer code
+    The <var> element defines a variable in programming or in a mathematical expression
+    The <pre> element defines preformatted text
+ -->
     <!-- -----------------------------------[]-------------------------------- -->
 
+
     <!-- -----------------------------------[]-------------------------------- -->
 
     <!-- -----------------------------------[]-------------------------------- -->
@@ -523,6 +653,8 @@ The target attribute can have one of the following values:
     <!-- -----------------------------------[]-------------------------------- -->
 
     <!-- -----------------------------------[]-------------------------------- -->
+
+        <!-- -----------------------------------[]-------------------------------- -->
 
     <!-- -----------------------------------[]-------------------------------- -->
 

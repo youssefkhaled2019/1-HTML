@@ -93,3 +93,58 @@ PNG 	Portable Network Graphics 	            .png
 SVG 	Scalable Vector Graphics 	            .svg
 -----------------------------------------
 [apng,gif,ico,cur,jpg,jpeg,jfif,pjpeg,pjp,png,svg,,,]
+-----------------------------------------
+
+scheme://prefix.domain:port/path/filename 
+
+    scheme - defines the type of Internet service (most common is http or https)
+    prefix - defines a domain prefix (default for http is www)
+    domain - defines the Internet domain name (like w3schools.com)
+    port - defines the port number at the host (default for http is 80)
+    path - defines a path at the server (If omitted: the root directory of the site)
+    filename - defines the name of a document or resource
+
+
+-----------------------------------------
+What is XHTML?
+
+    XHTML stands for EXtensible HyperText Markup Language
+    XHTML is a stricter, more XML-based version of HTML
+    XHTML is HTML defined as an XML application
+    XHTML is supported by all major browsers
+-----------------------------------------
+Why XHTML?
+
+XML is a markup language where all documents must be marked up correctly (be "well-formed").
+
+XHTML was developed to make HTML more extensible and flexible to work with other data formats (such as XML). In addition, browsers ignore errors in HTML pages, and try to display the website even if it has some errors in the markup. So XHTML comes with a much stricter error handling.
+
+If you want to study XML, please read our XML Tutorial.
+-----------------------------------------
+The Most Important Differences from HTML
+
+    <!DOCTYPE> is mandatory
+    The xmlns attribute in <html> is mandatory
+    <html>, <head>, <title>, and <body> are mandatory
+    Elements must always be properly nested
+    Elements must always be closed
+    Elements must always be in lowercase
+    Attribute names must always be in lowercase
+    Attribute values must always be quoted
+    Attribute minimization is forbidden
+-----------------------------------------
+Notes on GET:
+
+    Appends the form data to the URL, in name/value pairs
+    NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+    The length of a URL is limited (2048 characters)
+    Useful for form submissions where a user wants to bookmark the result
+    GET is good for non-secure data, like query strings in Google
+
+Notes on POST:
+
+    Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+    POST has no size limitations, and can be used to send large amounts of data.
+    Form submissions with POST cannot be bookmarked
+
+-----------------------------------------
